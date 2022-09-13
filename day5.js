@@ -96,7 +96,7 @@ let length1=obj1.ar1.length
 let length2=0;
 for(let i in obj1.ar1){
     if(obj1.ar1[i]===obj2.ar2[i]){
-        length++;
+        length2++;
     }
 }
 if(length2===length1){
